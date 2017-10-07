@@ -1,0 +1,500 @@
+    5  mv registeredLogin.php index.php
+    6  ls
+    7  git status 
+    8  git add registeredLogin.php index.php 
+    9  git add -A registeredLogin.php index.php 
+   10  git status 
+   11  git commit -m "init heroku"
+   12  git push heroku master
+   13  heroku open
+   14  heroku addons:create cleardb:ignite
+   15  heroku addons:create cleardb:ignite
+   16  heroku addons:create cleardb:ignite
+   17  heroku addons:create cleardb:ignite
+   18  heroku addons:add\ cleardb:ignite
+   19  heroku addons:add cleardb:ignite
+   20  heroku login
+   21  heroku addons:add cleardb:ignite
+   22  heroku addons:create cleardb:ignite
+   23  git clone https://github.com/maxlapshin/mysql2postgres.git
+   24  cd mysql2postgres
+   25  bundle install
+   26  sudo apt-get install bundler
+   27  gem build mysqltopostgres.gemspec
+   28  sudo gem install mysqltopostgres-0.2.20.gem
+   29  mysqltopostgres
+   30  sudo gem install mysqltopostgres-0.2.20.gem
+   31  sudo gem install mysqltopostgres-0.3.0.gem
+   32  mysqltopostgres
+   33  bundle install
+   34  gem install public_suffix -v '2.0.5'
+   35  sudo gem install public_suffix -v '2.0.5'
+   36  cd ../../
+   37  ls
+   38  git push heroku master
+   39  git config user.email "g.anitha92@gmail.com"
+   40  git config user.email
+   41  git status
+   42  git status
+   43  git config user.email
+   44  git status
+   45  git add index.php registeredLogin.php
+   46  git add -A index.php registeredLogin.php
+   47  git status
+   48  git status
+   49  git add dbc/
+   50  git add login_check.php
+   51  git status
+   52  git commit -m "changed file name and path of dbc.inc"
+   53  git push origin master 
+   54  git status
+   55  git add -u
+   56  git commit -m "change"
+   57  git rebase -i HEAD~2
+   58  git push -f origin master 
+   59  heroku login
+   60  git status
+   61  heroku git:clone -a limitless-inlet-55229
+   62  cd limitless-inlet-55229
+   63  git status
+   64  cd /var/www/ninjacrm/
+   65  cd /var/www/ninjacrm/
+   66  git branch 
+   67  git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+   68  git branch 
+   69  git pull origin master
+   70  git checkout .
+   71  git pull origin master
+   72  git fetch
+   73  git checkout CRM-7385-field-visit-fix 
+   74  git checkout master
+   75  exit
+   76  vagrant ssh
+   77  cd /var/www/ninjacrm/
+   78  git branch
+   79  git fetch
+   80  cd /var/www/ninjacrm
+   81  git status
+   82  git fetch
+   83  git checkout CRM-7343 
+   84  git checkout master
+   85  cd /var/www/ninjacrm/
+   86  git status
+   87  php cron/cli_runner.php demo data/process_maruti_mcp_data.php 
+   88  php cron/cli_runner.php demo data/process_maruti_mcp_data.php 
+   89  php cron/cli_runner.php demo data/process_maruti_mcp_data.php 
+   90  php cron/cli_runner.php demo data/process_maruti_mcp_data.php 
+   91  exit
+   92  cd /var/www/n
+   93  cd /var/www/ninjacrm/
+   94  git status
+   95  git pull origin master
+   96  git stash list
+   97  git stash apply stash@{0}
+   98  git checkout master
+   99  git checkout CRM-7436
+  100  git stash apply stash@{3}
+  101  git checkout .
+  102  git stash apply stash@{3}
+  103  clear
+  104  php cron/cli_runner.php demo data/process_common_sales_data.php 
+  105  clear
+  106  php cron/cli_runner.php demo data/process_common_sales_data.php 
+  107  git checkout master
+  108  git checkout .
+  109  git reset HEAD 
+  110  git checkout .
+  111  git checkout master
+  112  EXIT
+  113  exit
+  114  cd /var
+  115  cd www/ninjacrm/
+  116  git fetch && git checkout CRM-7260
+  117  git stash 
+  118  git stash list 
+  119  git stash apply 
+  120  cd console_reloaded/
+  121  php composer.phar 
+  122  php composer.phar install
+  123  cd ../
+  124  git status
+  125  php db_sync/run_db_script_everywhere.php > ../db.html 
+  126  php db_sync/run_db_script_everywhere.php > ../db.html 
+  127  php db_sync/run_db_script_everywhere.php > ../db.html 
+  128  cd console_reloaded/
+  129  php composer.phar install
+  130  cd ../
+  131  git branch 
+  132  git checkout master
+  133  git checkout db_sync/client_aux_db/2017-02-03_ins_adding_subprocess_for_analytics.sql
+  134  git status
+  135  git branch 
+  136  git pull origin master
+  137  git stash list 
+  138  git stash apply
+  139  cd console_reloaded/
+  140  cd frontend/
+  141  cd ..
+  142  php composer.phar install
+  143  cd frontend/
+  144  php artisan key:generate
+  145  cd ..
+  146  php artisan key:generate
+  147  cd frontend/
+  148  ls
+  149  ls -a
+  150  cd ..
+  151  ls -a
+  152  cp .env.setup .env
+  153  php artisan key:generate
+  154  sudo service apache2 restart 
+  155  sudo service mysql restart
+  156  sudo chmod -R ../
+  157  sudo chmod 777 -R ../
+  158  php composer.phar install
+  159  ls -a
+  160  git checkout master
+  161  cd ../
+  162  git branch 
+  163  git status
+  164  git checkout .
+  165  git checkout .
+  166  git status
+  167  git pull origin master
+  168  php cron/cron_runner.php demo 218
+  169  php db_sync/run_db_script_everywhere.php > ../db.html 
+  170  php db_sync/run_db_script_everywhere.php > ../db.html 
+  171  git status
+  172  git pull origin master
+  173  git fetchh
+  174  git fetch
+  175  exit
+  176  gedit
+  177  git branch
+  178  cd /var/www/ninjacrm/
+  179  git branch
+  180  git checkout CRM-6731-mark-dnc-per-module
+  181  git status
+  182  git checkout .
+  183  git checkout CRM-6731-mark-dnc-per-module
+  184  git pull
+  185  git fetch
+  186  git checkout CRM-6731-mark-dnc-per-module
+  187  git checkout .
+  188  git pull origin CRM-6731-mark-dnc-per-module
+  189  cd /var/www/ninjacrm/
+  190  git status
+  191  git checkout master
+  192  git pull origin master
+  193  git fetch
+  194  git checkout CRM-7576-need-taxi-non-taxi-filter-in-sc 
+  195  gb
+  196  git branch
+  197  cd ..
+  198  cd ninjacrm/console_reloaded/
+  199  vim .env
+  200  nano .env
+  201  php artisan queue:listen
+  202  cd ..
+  203  cd ..
+  204  cd ninjacrm/
+  205  git status
+  206  git checkout master
+  207  git checkout .
+  208  git checkout master
+  209  git pull origin master
+  210  git checkout -b CRM-7457
+  211  git status
+  212  git status
+  213  git commit -m "jobmass changes"
+  214  git status
+  215  git add server/php/rules/mahindra_bill_jobmass_data/processing_rules.php
+  216  git commit -m "jobmass changes"
+  217  git push origin CRM-7457
+  218  git checkout master
+  219  git checkout CRM-7457
+  220  git status
+  221  git add server/php/rules/mahindra_bill_jobmass_data/processing_rules.php
+  222  git commit -m "jobmass changes-1"
+  223  git push origin CRM-7457
+  224  git checkout master
+  225  git checkout master
+  226  git pull origin master
+  227  git checkout -b CRM-7647
+  228  git status
+  229  git add db_sync/client_db_sync_list.txt db_sync/common_db_sync_list.txt db_sync/client_db/2017-06-05_psf_sales_form_for_trs.sql db_sync/common_db/2017-06-05_expression_for_trs.sql
+  230  git status
+  231  git commit -m "psf sales form for trs"
+  232  git push origin CRM-7647
+  233  git checkout master
+  234  git pull orign master
+  235  git pull origin master
+  236  git checkout CRM-7647
+  237  git rebase master
+  238  git status
+  239  git add db_sync/client_db_sync_list.txt db_sync/common_db_sync_list.txt
+  240  git status
+  241  git rebase --continue 
+  242  git push -f origin CRM-7647
+  243  git checkout master
+  244  exit
+  245  cd frontend/
+  246  ./local_setup.sh 
+  247  exit
+  248  cd /var/www/ninjacrm/
+  249  git status
+  250  git pull origin master
+  251  git checkout CRM-7647
+  252  git rebase master
+  253  git status
+  254  git add db_sync/common_db_sync_list.txt
+  255  git status
+  256  git rebase --continue 
+  257  git push -f origin CRM-7647
+  258  git checkout master
+  259  git status
+  260  git pull origin master
+  261   git checkout -b CRM-7789
+  262  git status
+  263  git add -u
+  264  git status
+  265  git add db_sync/client_db/2017-06-15_psf_tailored_form.sql db_sync/common_db/2017-06-15_psf_questions_form.sql
+  266  git status
+  267  git commit -m "psf sales forms"
+  268  git push origin CRM-7789
+  269  git checkout master
+  270  exit
+  271  cd ..
+  272  sudo cp -R fpdf17/ /var/reqs/
+  273  sudo cp -R fpdf17/ /var/
+  274  sudo rm -r fpdf17/
+  275  sudo service apache2 restart
+  276  sudo chown www-data:www-data hyundai_complaint_slips/
+  277  cd ../ninjacrm/db_sync/
+  278  php run_db_script_everywhere.php > sync_log.html 
+  279  cd /var/www/ninjacrm/
+  280  git status
+  281  git pull origin master
+  282  git fetch
+  283  git checkout CRM-7922-psf-service-daily-reports 
+  284  git checkout master
+  285  git fetch
+  286  git checkout CRM-7201-psf-form 
+  287  git checkout .
+  288  git checkout master
+  289  git checkout CRM-7922-psf-service-daily-reports 
+  290  git checkout master
+  291  git checkout CRM-7201-psf-form 
+  292  git pull origin CRM-7201-psf-form 
+  293  xkill
+  294  cd /var/www/ninjacrm/
+  295  gs
+  296  git status
+  297  git checkout master
+  298  git fetch origin CRM-7988-service-due-change
+  299  git checkout CRM-7988-service-due-change
+  300  cd /var/www/ninjacrm/
+  301  cd console_reloaded/
+  302  php composer.phar install
+  303  sudo php composer.phar install
+  304  cd ..
+  305  git status
+  306  git checkout .
+  307  git checkout master
+  308  git pull origin master
+  309  cd /var/www/ninjacrm/
+  310  git checkout -b CRM-8254
+  311  git checkout master
+  312  git pull origin master
+  313  git pull origin master
+  314  git checkot CRM-8254
+  315  git checkout CRM-8254
+  316  git checkout master
+  317  php db_sync/run_db_script_everywhere.php 
+  318  git checkout CRM-8254
+  319  git checkout master
+  320  git branch -D CRM-8254
+  321  git checkout -b  CRM-8254-psf
+  322  git status
+  323  git add db_sync/client_db_sync_list.txt db_sync/common_db_sync_list.txt db_sync/client_db/2017_07_25_questions_for_indus.sql db_sync/common_db/2017_07_25_questions_for_indus.sql
+  324  git status
+  325  git commit -m "form updateion for indus"
+  326  git push origin CRM-8254-psf 
+  327  git checkout master
+  328  git pull origin master
+  329  git checkout CRM-8254-psf 
+  330  git rebase master
+  331  git status
+  332  git add db_sync/common_db_sync_list.txt
+  333  git status
+  334  git add -u
+  335  git rebase --continue
+  336  git status
+  337  git push -f origin CRM-8254-psf 
+  338  git status
+  339  git add db_sync/client_db/2017_07_25_questions_for_indus.sql
+  340  git status
+  341  git commit -m "deleted the five questions mentioned"
+  342  git push origin CRM-8254-psf 
+  343  git status
+  344  git add db_sync/client_db/2017_07_25_questions_for_indus.sql
+  345  git commit -m "small change"
+  346  git push origin CRM-8254-psf 
+  347  git reset -i HEAD~3
+  348  git rebase -i HEAD~3
+  349  git push -f origin CRM-8254-psf 
+  350  git checkout master
+  351  git checkout CRM-8254-psf 
+  352  git status
+  353  git add -u
+  354  git commit -m "small change"
+  355  git push origin CRM-8254-psf 
+  356  git checkout master
+  357  exit
+  358  cd /var/www/ninjacrm/
+  359  git checkout master
+  360  git pull origin master
+  361  git checkout CRM-8254-psf 
+  362  git status
+  363  git add -u
+  364  git status
+  365  git commit -m "small change for alt"
+  366  git push origin CRM-8254-psf 
+  367  git checkout master
+  368  git pull origin master
+  369  git checkout CRM-8254-psf 
+  370  git rebase-i HEAD~3
+  371  git rebase -i HEAD~3
+  372  git push -f origin CRM-8254-psf 
+  373  git rebase master
+  374  git status
+  375  git add -u
+  376  git status
+  377  git rebase --continue 
+  378  git status
+  379  git push -f origin CRM-8254-psf 
+  380  git checkout master
+  381  cd /var/www/ninjacrm/
+  382  git checkout master
+  383  git pull origin master
+  384  git checkout CRM-8254-psf
+  385  git status
+  386  git add -u
+  387  git commit -m "fix"
+  388  git push origin CRM-8254-psf 
+  389  git rebase master
+  390  git status
+  391  git add -u
+  392  git status
+  393  git rebase --continue 
+  394  git push -f origin CRM-8254-psf 
+  395  git rebase -i HEAD~2
+  396  git push -f origin CRM-8254-psf 
+  397  git status
+  398  git add -u
+  399  git commit -m "removed unused answers"
+  400  git push origin CRM-8254-psf 
+  401  git rebase -i HEAD~2
+  402  git push -f origin CRM-8254-psf 
+  403  git checkout master
+  404  git checkout CRM-8254-psf
+  405  git status
+  406  git add -u
+  407  git commit -m "removed unused answers"
+  408  git push origin CRM-8254-psf 
+  409  git rebase -i HEAD~2
+  410  git push -f origin CRM-8254-psf 
+  411  git checkout master
+  412  git checkout -b CRM-8254-psf-form
+  413  git checkout master
+  414  cd
+  415  composer create-project --prefer-dist laravel/laravel blog "5.2.*"
+  416  cd /var/www/
+  417  composer create-project --prefer-dist laravel/laravel blog "5.2.*"
+  418  cd login/
+  419  composer create-project --prefer-dist laravel/laravel blog "5.2.*"
+  420  composer create-project --prefer-dist laravel/laravel blog "5.2.*"
+  421  ls
+  422  sudo chmod 777 userlogin
+  423  cd ../
+  424  ls
+  425  cd login/
+  426  cd 
+  427  cd /var/www/login/
+  428  ls
+  429  cd loginregistration/
+  430  ls
+  431  php home.php 
+  432  php home.php 
+  433  php home.php 
+  434  php index.php
+  435  cd ../
+  436  sudo chmod 777 loginregistration/
+  437  cd /var/www/login/
+  438  php artisan make:migration create_users_table
+  439  ls
+  440  cd blog/
+  441  php artisan make:migration create_users_table
+  442  php artisan migrate
+  443  sudo php artisan migrate
+  444  sudo php artisan migrate
+  445  sudo php artisan migrate
+  446  sudo php artisan migrate
+  447  migrate:rollback
+  448  sudo migrate:rollback
+  449  migrate:rollback: command not found
+  450  composer dump-autoload
+  451  relax
+  452  Relax
+  453  php artisan make:migration create_users_table
+  454  php artisan migrate
+  455  php artisan make:auth
+  456  php artisan server.php 
+  457  php artisan serve
+  458  php artisan serve
+  459  php artisan serve
+  460  php artisan make:auth
+  461  php artisan serve
+  462  php artisan migrate
+  463   migrate:rollback
+  464  php migrate:rollback
+  465  composer dump-autoload
+  466  php artisan serve
+  467  php artisan migrate
+  468  php artisan make:migration create_users_table
+  469  php artisan make:migration create_users_table
+  470  php artisan serve
+  471  php artisan make:auth
+  472  php artisan migrate
+  473  php artisan make:migration create_users_table
+  474  php artisan make:migration create_users_table
+  475  php artisan migrate
+  476  php artisan make:migration create_users_table
+  477  php artisan make:auth
+  478  php artisan migrate
+  479  php artisan make:migration create_users_table
+  480  composer create-project --prefer-dist laravel/laravel register "5.2.*"
+  481  php artisan make:auth
+  482  php artisan migrate
+  483  php artisan migrate
+  484  php artisan make:migration create_users_table
+  485  php artisan make:migration create_users_table
+  486  php artisan make:auth
+  487  php artisan serve
+  488  php artisan make:auth
+  489  php artisan migrate
+  490  php artisan serve
+  491  php artisan make:auth
+  492  php artisan serve
+  493  php artisan migrate
+  494  php artisan serve
+  495  php artisan make:auth
+  496  php artisan serve
+  497  php artisan migrate
+  498  php artisan migrate
+  499  cd /var/www/login/
+  500  ls
+  501  cd register/
+  502  bash his
+  503  history
+  504  history > history_for_print.txt
